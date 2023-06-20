@@ -108,20 +108,22 @@
   animation: slide 2s infinite;
 }
 
+.slide {
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 5s;
+}
+
 @-webkit-keyframes slide {
-
-  0% {
-    left: 0;
+  from {
+    margin-left: 100%;
+    width: 300%;
   }
 
-  50% {
-    left: calc(100% - 100px);
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
-
-  100% {
-    left: 0;
-  }
-
 }
 
 #tsparticles {
