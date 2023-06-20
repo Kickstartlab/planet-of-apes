@@ -55,10 +55,10 @@
 
 .rotate {
   animation: rotation 8s infinite linear;
-  filter: drop-shadow(8px 8px 6px rgb(146, 179, 221));
+  filter: drop-shadow(8px 8px 6px rgb(50, 126, 3));
 }
 
-@keyframes rotation {
+/* @keyframes rotation {
   from {
     transform: rotate(0deg);
   }
@@ -66,7 +66,7 @@
   to {
     transform: rotate(359deg);
   }
-}
+} */
 
 .bg-custom {
   background: linear-gradient(294.72deg, #FF4581 9.05%, #4388DD 79.28%);

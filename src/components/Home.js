@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import about from '../assets/about.png';
@@ -25,18 +25,18 @@ export default function Home() {
         Aos.refresh();
     }, [])
 
-    const [copySuccess, setCopySuccess] = useState('');
+    // const [copySuccess, setCopySuccess] = useState('');
 
-    // your function to copy here
+    // // your function to copy here
 
-    const copyToClipBoard = async copyMe => {
-        try {
-            await navigator.clipboard.writeText(copyMe);
-            setCopySuccess('Copied!');
-        } catch (err) {
-            setCopySuccess('Failed to copy!');
-        }
-    };
+    // const copyToClipBoard = async copyMe => {
+    //     try {
+    //         await navigator.clipboard.writeText(copyMe);
+    //         setCopySuccess('Copied!');
+    //     } catch (err) {
+    //         setCopySuccess('Failed to copy!');
+    //     }
+    // };
 
     return (
         <div className="font-mulish overflow-hidden text-white-100">
@@ -50,24 +50,24 @@ export default function Home() {
                     <div className="flex flex-col items-center gap-y-12 py-20">
                         <div className="lg:w-9/12">
 
-                            <p className='py-5 text-lg font-oswald uppercase'>
+                            <p data-aos='fade-up' className='py-5 text-lg font-oswald uppercase'>
                                 community-based coin
                             </p>
 
-                            <h2 data-aos='fade-up' className='font-mulish md:text-6xl text-3xl font-extrabold text-white-100'>
+                            <h2 data-aos='slide-right' className='font-mulish md:text-6xl text-3xl font-extrabold text-white-100'>
                                 Planet of Apes
                             </h2>
 
-                            <p className='py-5 text-lg'>
+                            <p data-aos='fade-up' className='py-5 text-lg'>
                                 created by apes to combat scam <br></br>and rugs in the cryptocurrency space
                             </p>
 
                             <div className='flex items-center gap-x-6'>
-                                <button className='bg-green-100 px-6 py-3 uppercase font-semibold rounded-full border-2 border-green-100 hover-bg-transparent'>
+                                <button data-aos='slide-right' className='bg-green-100 px-6 py-3 uppercase font-semibold rounded-full border-2 border-green-100 hover-bg-transparent'>
                                     Get Started
                                 </button>
 
-                                <button className='hover:bg-green-100 border-2 border-green-100 px-12 py-3 uppercase font-semibold rounded-full'>
+                                <button data-aos='slide-left' className='hover:bg-green-100 border-2 border-green-100 px-12 py-3 uppercase font-semibold rounded-full'>
                                     audit
                                 </button>
                             </div>
@@ -77,7 +77,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <img src={top} className='w-full lg:-mt-3 -mt-1 absolute'></img>
+            <img src={top} alt='wave' className='w-full lg:-mt-3 -mt-1 absolute'></img>
 
             {/* about us section */}
 
@@ -106,14 +106,14 @@ export default function Home() {
                         </div>
 
                         <div data-aos="zoom-in" data-aos-delay="350" className=" md:mt-0 mt-12">
-                            <img src={about} alt="Logo" className='w-10/12 lg:float-right sm:flex mx-auto' />
+                            <img src={about} alt="Logo" className='w-10/12 lg:float-right sm:flex mx-auto border-4 border-green-50 rounded-full rotate' />
                         </div>
 
                     </div>
                 </div>
             </div>
 
-            <img src={top_1} className='w-full lg:-mt-3 -mt-1 absolute'></img>
+            <img src={top_1} alt='wave' className='w-full lg:-mt-3 -mt-1 absolute'></img>
 
             {/* tokenomics section */}
 
@@ -122,25 +122,25 @@ export default function Home() {
 
                     <div className='flex flex-col items-center lg:gap-y-12 gap-y-6 justify-center'>
 
-                        <p className='lg:text-lg font-oswald'>TOKENOMICS</p>
+                        <p data-aos='fade-up' className='lg:text-lg font-oswald'>TOKENOMICS</p>
 
-                        <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
+                        <h2 data-aos='fade-up' className='md:text-5xl text-3xl font-extrabold text-white-100'>
                             TOKENOMICS
                         </h2>
 
                         <div className='lg:flex items-center justify-center gap-x-6'>
-                            <h3 className='md:text-3xl text-xl font-extrabold text-green-100'>
+                            <h3 data-aos='fade-right' className='md:text-3xl text-xl font-extrabold text-green-100'>
                                 Token name
                             </h3>
 
-                            <h3 className='md:text-3xl text-xl font-extrabold text-white-100'>
+                            <h3 data-aos='fade-left' className='md:text-3xl text-xl font-extrabold text-white-100'>
                                 Planet Of Apes ($PLANET-A)
                             </h3>
                         </div>
 
                         <div className='lg:flex items-center justify-center gap-x-6 mt-6 lg:space-y-0 space-y-6'>
 
-                            <div className='py-3 lg:px-12 px-6 text-center bg-green-100 rounded-xl lg:w-96'>
+                            <div data-aos='zoom-in' className='py-3 lg:px-12 px-6 text-center bg-green-100 rounded-xl lg:w-96'>
                                 <img src={leaves} alt='leaves' className='absolute lg:ml-64 -ml-16 -mt-6 w-20'></img>
                                 <h4 className='md:text-2xl text-lg font-extrabold text-green-50'>
                                     Total Supply
@@ -151,7 +151,7 @@ export default function Home() {
                                 </h4>
                             </div>
 
-                            <div className='py-3 lg:px-12 px-6 text-center bg-green-100 rounded-xl lg:w-96'>
+                            <div data-aos='zoom-in' className='py-3 lg:px-12 px-6 text-center bg-green-100 rounded-xl lg:w-96'>
                                 <img src={leaves} alt='leaves' className='absolute lg:ml-64 -ml-16 -mt-6 w-20'></img>
                                 <h4 className='md:text-2xl text-lg font-extrabold text-green-50'>
                                     TAX
@@ -164,7 +164,7 @@ export default function Home() {
 
                         </div>
 
-                        <div className='py-3 lg:px-12 px-5 text-center bg-green-100 rounded-xl'>
+                        <div data-aos='zoom-in' className='py-3 lg:px-12 px-5 text-center bg-green-100 rounded-xl'>
                             <img src={leaves} alt='leaves' className='absolute -ml-16 -mt-6 w-20'></img>
                             <h4 className='md:text-2xl text-lg font-extrabold text-green-50'>
                                 PRESALE
@@ -180,7 +180,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <img src={top_2} className='w-full lg:-mt-3 -mt-1 absolute'></img>
+            <img src={top_2} alt='wave' className='w-full lg:-mt-3 -mt-1 absolute'></img>
 
             {/* how to buy section */}
 
@@ -189,15 +189,15 @@ export default function Home() {
 
                     <div className='flex flex-col items-center gap-y-12 justify-center'>
 
-                        <p className='lg:text-lg font-oswald uppercase'>How to Buy</p>
+                        <p data-aos='fade-up' className='lg:text-lg font-oswald uppercase'>How to Buy</p>
 
-                        <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
+                        <h2 data-aos='fade-up' className='md:text-5xl text-3xl font-extrabold text-white-100'>
                             How to Buy?
                         </h2>
 
                         <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 items-baseline justify-center gap-8 mt-8'>
 
-                            <div className='flex flex-col items-center text-center gap-y-4'>
+                            <div data-aos='slide-up' className='flex flex-col items-center text-center gap-y-4'>
                                 <img src={buy_1} alt='buy'></img>
                                 <h5 className='text-2xl font-mulish font-extrabold'>Grab A Wallet</h5>
                                 <p className='text-white-100 opacity-50 lg:leading-loose'>
@@ -209,7 +209,7 @@ export default function Home() {
                                 </button>
                             </div>
 
-                            <div className='flex flex-col items-center text-center gap-y-4'>
+                            <div data-aos='slide-up' className='flex flex-col items-center text-center gap-y-4'>
                                 <img src={buy_2} alt='buy'></img>
                                 <h5 className='text-2xl font-mulish font-extrabold'>Obtain Some Eth</h5>
                                 <p className='text-white-100 opacity-50 lg:leading-loose'>
@@ -217,7 +217,7 @@ export default function Home() {
                                 </p>
                             </div>
 
-                            <div className='flex flex-col items-center text-center gap-y-4'>
+                            <div data-aos='slide-up' className='flex flex-col items-center text-center gap-y-4'>
                                 <img src={buy_3} alt='buy'></img>
                                 <h5 className='text-2xl font-mulish font-extrabold'>Choose an Exchange</h5>
                                 <p className='text-white-100 opacity-50 lg:leading-loose'>
@@ -225,7 +225,7 @@ export default function Home() {
                                 </p>
                             </div>
 
-                            <div className='flex flex-col items-center text-center gap-y-4'>
+                            <div data-aos='slide-up' className='flex flex-col items-center text-center gap-y-4'>
                                 <img src={buy_4} alt='buy'></img>
                                 <h5 className='text-2xl font-mulish font-extrabold'>Switch Eth for Ape</h5>
                                 <p className='text-white-100 opacity-50 lg:leading-loose'>
@@ -240,11 +240,11 @@ export default function Home() {
                 </div>
             </div>
 
-            <img src={top_2} className='w-full lg:-mt-3 -mt-1 absolute'></img>
+            <img src={top_2} alt='wave' className='w-full lg:-mt-3 -mt-1 absolute'></img>
 
             {/* roadmap */}
 
-            <img src={clouds} className='w-full lg:-mt-28 absolute animate-pulse'></img>
+            <img src={clouds} alt='cloud' className='w-full lg:-mt-28 absolute animate-pulse'></img>
 
             <div className='bg-roadmap lg:pt-24'>
                 <div
@@ -253,9 +253,9 @@ export default function Home() {
                 >
 
                     <div className='text-center'>
-                        <p className='lg:text-lg font-oswald uppercase mb-6'>ROAD MAP</p>
+                        <p data-aos='fade-up' className='lg:text-lg font-oswald uppercase mb-6'>ROAD MAP</p>
 
-                        <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
+                        <h2 data-aos='fade-up' className='md:text-5xl text-3xl font-extrabold text-white-100'>
                             ROADMAP
                         </h2>
                     </div>
@@ -485,7 +485,7 @@ export default function Home() {
 
                     <img src={bg_join} alt='join' className='mix-blend-color-dodge absolute lg:block hidden'></img>
                     <div className='lg:p-20 pt-8 lg:flex items-end justify-between relative z-20 lg:mb-48 lg:translate-y-16'>
-                        <div className='space-y-6'>
+                        <div data-aos='slide-right' className='space-y-6'>
                             <p className='lg:text-lg font-oswald uppercase mb-6'>Planet of the apes</p>
 
                             <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
@@ -494,7 +494,7 @@ export default function Home() {
                             </h2>
                         </div>
 
-                        <button className='px-8 py-3 border-4 border-white-100 bg-green-100 hover-bg-transparent text-white-100 rounded-full mt-12'>
+                        <button data-aos='slide-left' className='px-8 py-3 border-4 border-white-100 bg-green-100 hover-bg-transparent text-white-100 rounded-full mt-12'>
                             Get Started
                         </button>
                     </div>
