@@ -1,0 +1,128 @@
+.bg-gradient {
+  background: linear-gradient(294.72deg, #FF4581 9.05%, #4388DD 79.28%);
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.hover-bg-transparent:hover {
+  background: transparent;
+}
+
+.bg-top {
+  background-image: url(../src/assets/bg_top.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-about {
+  background-image: url(../src/assets/bg_about.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-token {
+  background-image: url(../src/assets/bg_token.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-buy {
+  background-image: url(../src/assets/bg_buy.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-roadmap {
+  background-image: url(../src/assets/bg_roadmap.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-join {
+  background-image: url(../src/assets/bg_join.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: color-dodge;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+  filter: drop-shadow(8px 8px 6px rgb(146, 179, 221));
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.bg-custom {
+  background: linear-gradient(294.72deg, #FF4581 9.05%, #4388DD 79.28%);
+}
+
+.line {
+  background: #66BA45;
+  animation: line 6s 5s infinite linear;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.box {
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 30px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.slide {
+  -webkit-animation: slide 2s infinite;
+  animation: slide 2s infinite;
+}
+
+@-webkit-keyframes slide {
+
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: calc(100% - 100px);
+  }
+
+  100% {
+    left: 0;
+  }
+
+}
