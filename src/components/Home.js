@@ -14,6 +14,7 @@ import buy_3 from '../assets/buy_3.png';
 import buy_4 from '../assets/buy_4.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Particle from './Particle';
 
 
 export default function Home() {
@@ -43,16 +44,14 @@ export default function Home() {
 
             {/* top section */}
 
-            <div className="lg:px-20 px-5 lg:h-screen bg-top">
-                <div className='container mx-auto'>
+            <div className="lg:px-20 px-5 bg-top">
+                <div className='container mx-auto relative z-20'>
 
                     <Menu />
-                    <div className="flex flex-col items-center gap-y-12 py-20">
-                        <div className="lg:w-9/12">
+                    <Particle />
 
-                            <p data-aos='fade-up' className='py-5 text-lg font-oswald uppercase'>
-                                community-based coin
-                            </p>
+                    <div className="flex flex-col items-center lg:pt-28 py-20 lg:py-64">
+                        <div className="lg:w-9/12 space-y-4">
 
                             <h2 data-aos='slide-right' className='font-mulish md:text-6xl text-3xl font-extrabold text-white-100'>
                                 Planet of Apes
@@ -63,11 +62,11 @@ export default function Home() {
                             </p>
 
                             <div className='flex items-center gap-x-6'>
-                                <button data-aos='slide-right' className='bg-green-100 px-6 py-3 uppercase font-semibold rounded-full border-2 border-green-100 hover-bg-transparent'>
-                                    Get Started
+                                <button data-aos='slide-right' className='bg-green-100 lg:px-12 px-6 py-3 uppercase font-semibold rounded-full border-2 border-green-100 hover-bg-transparent'>
+                                    chart
                                 </button>
 
-                                <button data-aos='slide-left' className='hover:bg-green-100 border-2 border-green-100 px-12 py-3 uppercase font-semibold rounded-full'>
+                                <button data-aos='slide-left' className='hover:bg-green-100 border-2 border-green-100 lg:px-12 px-6 py-3 uppercase font-semibold rounded-full'>
                                     audit
                                 </button>
                             </div>
@@ -88,7 +87,7 @@ export default function Home() {
 
                         <div data-aos="fade-left" className="lg:w-1/2 w-full space-y-8">
 
-                            <p className='lg:text-lg font-oswald uppercase'>About us</p>
+                            {/* <p className='lg:text-lg font-oswald uppercase'>About us</p> */}
 
                             <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
                                 Welcome To The Planet
@@ -121,8 +120,6 @@ export default function Home() {
                 <div className='container mx-auto'>
 
                     <div className='flex flex-col items-center lg:gap-y-12 gap-y-6 justify-center'>
-
-                        <p data-aos='fade-up' className='lg:text-lg font-oswald'>TOKENOMICS</p>
 
                         <h2 data-aos='fade-up' className='md:text-5xl text-3xl font-extrabold text-white-100'>
                             TOKENOMICS
@@ -189,8 +186,6 @@ export default function Home() {
 
                     <div className='flex flex-col items-center gap-y-12 justify-center'>
 
-                        <p data-aos='fade-up' className='lg:text-lg font-oswald uppercase'>How to Buy</p>
-
                         <h2 data-aos='fade-up' className='md:text-5xl text-3xl font-extrabold text-white-100'>
                             How to Buy?
                         </h2>
@@ -253,8 +248,6 @@ export default function Home() {
                 >
 
                     <div className='text-center'>
-                        <p data-aos='fade-up' className='lg:text-lg font-oswald uppercase mb-6'>ROAD MAP</p>
-
                         <h2 data-aos='fade-up' className='md:text-5xl text-3xl font-extrabold text-white-100'>
                             ROADMAP
                         </h2>
@@ -484,7 +477,7 @@ export default function Home() {
                     </div>
 
                     <img src={bg_join} alt='join' className='mix-blend-color-dodge absolute lg:block hidden'></img>
-                    <div className='lg:p-20 pt-8 lg:flex items-end justify-between relative z-20 lg:mb-48 lg:translate-y-16'>
+                    <div className='lg:p-20 pt-8 relative z-20 lg:mb-48 lg:translate-y-16'>
                         <div data-aos='slide-right' className='space-y-6'>
                             <p className='lg:text-lg font-oswald uppercase mb-6'>Planet of the apes</p>
 
@@ -493,10 +486,6 @@ export default function Home() {
                                 Experience of Life time
                             </h2>
                         </div>
-
-                        <button data-aos='slide-left' className='px-8 py-3 border-4 border-white-100 bg-green-100 hover-bg-transparent text-white-100 rounded-full mt-12'>
-                            Get Started
-                        </button>
                     </div>
 
                     <Footer />

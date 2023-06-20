@@ -13,7 +13,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-center justify-center gap-y-8 mx-auto">
 
-          <h2 className='md:text-4xl text-2xl font-mulish font-bold text-white-100'>
+          {/* <h2 className='md:text-4xl text-2xl font-mulish font-bold text-white-100'>
             Don't miss out, Stay updated
           </h2>
 
@@ -30,10 +30,10 @@ export default function Footer() {
               Don’t hesitate to subscribe to latest news about ICo markets as well as crucial financial<br></br> knowledge to become successful investors globally
             </p>
 
-            {/* <p className='pt-2'>
+            <p className='pt-2'>
               Get in touch: <a href='mailto:decentraprotocolteam@gmail.com' className='text-purple-100'>decentraprotocolteam@gmail.com</a>
-            </p> */}
-          </div>
+            </p>
+          </div> */}
 
           <div className='flex justify-center gap-6 items-center lg:mt-0 mt-6'>
 
