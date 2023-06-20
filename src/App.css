@@ -68,13 +68,10 @@
   }
 } */
 
-.bg-custom {
-  background: linear-gradient(294.72deg, #FF4581 9.05%, #4388DD 79.28%);
-}
 
 .line {
   background: #66BA45;
-  animation: line 6s 5s infinite linear;
+  animation: line 5s infinite;
 }
 
 @keyframes line {
