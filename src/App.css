@@ -53,21 +53,6 @@
   mix-blend-mode: color-dodge;
 }
 
-.rotate {
-  animation: rotation 8s infinite linear;
-  filter: drop-shadow(8px 8px 6px rgb(50, 126, 3));
-}
-
-/* @keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(359deg);
-  }
-} */
-
 
 .line {
   background: #66BA45;
@@ -95,34 +80,11 @@
   }
 
   50% {
-    transform: translate(0, 30px);
+    transform: translate(0, 15px);
   }
 
   100% {
     transform: translate(0, -0px);
-  }
-}
-
-.slide {
-  -webkit-animation: slide 2s infinite;
-  animation: slide 2s infinite;
-}
-
-.slide {
-  -webkit-animation: linear infinite;
-  -webkit-animation-name: slide;
-  -webkit-animation-duration: 5s;
-}
-
-@-webkit-keyframes slide {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
   }
 }
 

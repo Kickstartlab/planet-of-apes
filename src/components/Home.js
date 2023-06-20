@@ -7,6 +7,7 @@ import top from '../assets/top.png';
 import top_1 from '../assets/top_1.png';
 import top_2 from '../assets/top_2.png';
 import clouds from '../assets/clouds.png';
+import cloud_1 from '../assets/cloud_1.png';
 import leaves from '../assets/leaves.png';
 import buy_1 from '../assets/buy_1.png';
 import buy_2 from '../assets/buy_2.png';
@@ -239,7 +240,9 @@ export default function Home() {
 
             {/* roadmap */}
 
-            <img src={clouds} alt='cloud' className='w-full lg:-mt-28 absolute animate-pulse'></img>
+            <img src={clouds} alt='cloud' className='box w-full lg:-mt-28 absolute'></img>
+            <img src={clouds} alt='cloud' className='lg:-mt-24 opacity-50 absolute box w-full'></img>
+
 
             <div className='bg-roadmap lg:pt-24'>
                 <div
