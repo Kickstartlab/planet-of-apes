@@ -7,7 +7,6 @@ import top from '../assets/top.png';
 import top_1 from '../assets/top_1.png';
 import top_2 from '../assets/top_2.png';
 import clouds from '../assets/clouds.png';
-import cloud_1 from '../assets/cloud_1.png';
 import leaves from '../assets/leaves.png';
 import buy_1 from '../assets/buy_1.png';
 import buy_2 from '../assets/buy_2.png';
@@ -26,19 +25,6 @@ export default function Home() {
         });
         Aos.refresh();
     }, [])
-
-    // const [copySuccess, setCopySuccess] = useState('');
-
-    // // your function to copy here
-
-    // const copyToClipBoard = async copyMe => {
-    //     try {
-    //         await navigator.clipboard.writeText(copyMe);
-    //         setCopySuccess('Copied!');
-    //     } catch (err) {
-    //         setCopySuccess('Failed to copy!');
-    //     }
-    // };
 
     return (
         <div className="font-mulish overflow-hidden text-white-100">
@@ -67,9 +53,9 @@ export default function Home() {
                                     chart
                                 </button>
 
-                                <button data-aos='slide-left' className='hover:bg-green-100 border-2 border-green-100 lg:px-12 px-6 py-3 uppercase font-semibold rounded-full'>
+                                {/* <button data-aos='slide-left' className='hover:bg-green-100 border-2 border-green-100 lg:px-12 px-6 py-3 uppercase font-semibold rounded-full'>
                                     audit
-                                </button>
+                                </button> */}
                             </div>
 
                         </div>
@@ -86,17 +72,17 @@ export default function Home() {
 
                     <div className="lg:flex block justify-center items-center gap-x-12 py-12">
 
-                        <div data-aos="fade-left" className="lg:w-1/2 w-full space-y-8">
-
-                            {/* <p className='lg:text-lg font-oswald uppercase'>About us</p> */}
+                        <div data-aos="fade-left" className="lg:w-1/2 w-full space-y-6">
 
                             <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
                                 Welcome To The Planet
                             </h2>
 
                             <p className='lg:leading-loose'>
-                                Planet of Apes ($PLANET-A) is a community-based coin created by apes to combat scams and rugs in the cryptocurrency space. Our goal is to ensure a clean and safe environment for apes to engage in their activities. Despite coming from different families, backgrounds, communities, and countries, we have united on Apes Planet. Together, we are strong. Apes are at their strongest when we stand united. Let us fight for our future.
-
+                                How many people feel sad when they miss out on a token that skyrockets in value, how many people sell a token early that eventually reaches a multimillion market capitalization, and how many people have regretted not having a second chance is subjective and difficult to quantify.
+                            </p>
+                            <p className='lg:leading-loose'>
+                                We are offering you a second chance with our token, "Planet 2," Main PLANET token which currently has a market capitalization of 75 million. Don't miss this second, or you may remain financially disadvantaged for a lifetime.
                             </p>
 
                             <button className='bg-black-50 hover:bg-green-100 px-6 py-3 uppercase font-semibold rounded-full'>
@@ -106,7 +92,7 @@ export default function Home() {
                         </div>
 
                         <div data-aos="zoom-in" data-aos-delay="350" className=" md:mt-0 mt-12">
-                            <img src={about} alt="Logo" className='w-10/12 lg:float-right sm:flex mx-auto border-4 border-green-50 rounded-full rotate' />
+                            <img src={about} alt="Logo" className='w-8/12 lg:float-right sm:flex mx-auto border-4 border-green-50 rounded-full rotate' />
                         </div>
 
                     </div>
@@ -482,7 +468,7 @@ export default function Home() {
                     <img src={bg_join} alt='join' className='mix-blend-color-dodge absolute lg:block hidden'></img>
                     <div className='lg:p-20 pt-8 relative z-20 lg:mb-48 lg:translate-y-16'>
                         <div data-aos='slide-right' className='space-y-6'>
-                            <p className='lg:text-lg font-oswald uppercase mb-6'>Planet of the apes</p>
+                            <p className='lg:text-lg font-oswald uppercase mb-6'>Planet of the Apes</p>
 
                             <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
                                 Join us for an<br></br>
