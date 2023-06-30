@@ -150,7 +150,7 @@ export default function Home() {
 
                         <div className='lg:flex items-center justify-center gap-x-6 mt-6 lg:space-y-0 space-y-6'>
 
-                            <div data-aos='zoom-in' className='py-3 lg:px-12 px-5 text-center bg-green-100 rounded-xl lg:w-80'>
+                            <div data-aos='zoom-in' className='py-3 lg:px-12 px-5 text-center bg-green-100 rounded-xl lg:w-96'>
                                 <img src={leaves} alt='leaves' className='absolute -ml-16 -mt-6 w-20'></img>
                                 <h4 className='md:text-2xl text-lg font-extrabold text-green-50'>
                                     Max wallet
