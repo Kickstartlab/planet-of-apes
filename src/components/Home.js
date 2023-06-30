@@ -131,7 +131,7 @@ export default function Home() {
                                 </h4>
 
                                 <h4 className='md:text-2xl text-lg font-extrabold text-white-100'>
-                                    1,000,000,000,000
+                                    1,000,000,000,010
                                 </h4>
                             </div>
 
@@ -142,21 +142,35 @@ export default function Home() {
                                 </h4>
 
                                 <h4 className='md:text-2xl text-lg font-extrabold text-white-100'>
-                                    BUY AND SELL TAX 0%
+                                    BUY AND SELL Tax 2/2
                                 </h4>
                             </div>
 
                         </div>
 
-                        <div data-aos='zoom-in' className='py-3 lg:px-12 px-5 text-center bg-green-100 rounded-xl'>
-                            <img src={leaves} alt='leaves' className='absolute -ml-16 -mt-6 w-20'></img>
-                            <h4 className='md:text-2xl text-lg font-extrabold text-green-50'>
-                                PRESALE
-                            </h4>
+                        <div className='lg:flex items-center justify-center gap-x-6 mt-6 lg:space-y-0 space-y-6'>
 
-                            <h4 className='md:text-2xl text-lg font-extrabold text-white-100'>
-                                NO PRIVATE OR PRESALE
-                            </h4>
+                            <div data-aos='zoom-in' className='py-3 lg:px-12 px-5 text-center bg-green-100 rounded-xl lg:w-80'>
+                                <img src={leaves} alt='leaves' className='absolute -ml-16 -mt-6 w-20'></img>
+                                <h4 className='md:text-2xl text-lg font-extrabold text-green-50'>
+                                    Max wallet
+                                </h4>
+
+                                <h4 className='md:text-2xl text-lg font-extrabold text-white-100'>
+                                    2%
+                                </h4>
+                            </div>
+
+                            <div data-aos='zoom-in' className='py-3 lg:px-12 px-5 text-center bg-green-100 rounded-xl'>
+                                <img src={leaves} alt='leaves' className='absolute -ml-16 -mt-6 w-20'></img>
+                                <h4 className='md:text-2xl text-lg font-extrabold text-green-50'>
+                                    PRESALE
+                                </h4>
+
+                                <h4 className='md:text-2xl text-lg font-extrabold text-white-100'>
+                                    NO PRIVATE OR PRESALE
+                                </h4>
+                            </div>
                         </div>
 
                     </div>
