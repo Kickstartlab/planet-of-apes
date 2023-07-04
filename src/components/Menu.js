@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.png';
 
 
 
@@ -11,10 +10,12 @@ export default function Menu() {
   return (
 
     <header>
-      
+
       <div className="lg:flex hidden items-center justify-between font-mulish h-28">
         <a href="/" className="logo lg:my-12">
-          <img src={logo} alt="Logo" />
+          <h1 className='text-3xl font-bold'>
+            PLANET 2.0
+          </h1>
         </a>
 
         <nav>
@@ -36,7 +37,9 @@ export default function Menu() {
 
       <div className="lg:hidden flex items-center justify-between pt-5 font-mulish">
         <a href="/" className="text-white-100">
-          <img src={logo} alt="Logo" className='w-9/12'/>
+          <h1 className='text-2xl font-bold'>
+            PLANET 2.0
+          </h1>
         </a>
 
         <button onClick={() => setShow(!show)} className="nav cursor-pointer">
@@ -53,7 +56,9 @@ export default function Menu() {
 
           <div className="mt-3 px-3 mb-12">
             <a href="/" className="text-white-100">
-              <img src={logo} alt="Logo" />
+              <h1 className='text-2xl font-bold text-left'>
+                PLANET 2.0
+              </h1>
             </a>
           </div>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md transition duration-500 cursor-pointer  text-white-100">

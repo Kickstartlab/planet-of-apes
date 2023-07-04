@@ -41,7 +41,7 @@ export default function Home() {
                         <div className="lg:w-9/12 space-y-4">
 
                             <h2 data-aos='slide-right' className='font-mulish md:text-6xl text-3xl font-extrabold text-white-100'>
-                                Planet of Apes
+                                PLANET 2.0
                             </h2>
 
                             <p data-aos='fade-up' className='py-5 text-lg'>
@@ -75,14 +75,14 @@ export default function Home() {
                         <div data-aos="fade-left" className="lg:w-1/2 w-full space-y-6">
 
                             <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
-                                Welcome To The Planet
+                                Welcome To The PLANET 2.0
                             </h2>
 
                             <p className='lg:leading-loose'>
                                 How many people feel sad when they miss out on a token that skyrockets in value, how many people sell a token early that eventually reaches a multimillion market capitalization, and how many people have regretted not having a second chance is subjective and difficult to quantify.
                             </p>
                             <p className='lg:leading-loose'>
-                                We are offering you a second chance with our token, "Planet 2," Main PLANET token which currently has a market capitalization of 75 million. Don't miss this second, or you may remain financially disadvantaged for a lifetime.
+                                We are offering you a second chance with our token, "PLANET 2.0," Main PLANET 2.0 token which currently has a market capitalization of 75 million. Don't miss this second, or you may remain financially disadvantaged for a lifetime.
                             </p>
 
                             <button className='bg-black-50 hover:bg-green-100 px-6 py-3 uppercase font-semibold rounded-full'>
@@ -118,7 +118,7 @@ export default function Home() {
                             </h3>
 
                             <h3 data-aos='fade-left' className='md:text-3xl text-xl font-extrabold text-white-100'>
-                                Planet Of Apes ($PLANET-A)
+                                PLANET 2.0
                             </h3>
                         </div>
 
@@ -209,7 +209,7 @@ export default function Home() {
                                 <img src={buy_2} alt='buy'></img>
                                 <h5 className='text-2xl font-mulish font-extrabold'>Obtain Some Eth</h5>
                                 <p className='text-white-100 opacity-50 lg:leading-loose'>
-                                    Have ETH in your wallet to switch to $PLANET. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.
+                                    Have ETH in your wallet to switch to $PLANET 2.0. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.
                                 </p>
                             </div>
 
@@ -217,7 +217,7 @@ export default function Home() {
                                 <img src={buy_3} alt='buy'></img>
                                 <h5 className='text-2xl font-mulish font-extrabold'>Choose an Exchange</h5>
                                 <p className='text-white-100 opacity-50 lg:leading-loose'>
-                                    Connect to an exchange of your choice. For example, go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $PLANET token address into Uniswap, select PLANET, and confirm. When Metamask prompts you for a wallet signature, sign.
+                                    Connect to an exchange of your choice. For example, go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $PLANET 2.0 token address into Uniswap, select PLANET 2.0, and confirm. When Metamask prompts you for a wallet signature, sign.
                                 </p>
                             </div>
 
@@ -225,7 +225,7 @@ export default function Home() {
                                 <img src={buy_4} alt='buy'></img>
                                 <h5 className='text-2xl font-mulish font-extrabold'>Switch Eth for Ape</h5>
                                 <p className='text-white-100 opacity-50 lg:leading-loose'>
-                                    Connect to an exchange of your choice. For example, go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $PLANET-A  token address into Uniswap, select PLANET, and confirm. When Metamask prompts you for a wallet signature, sign.
+                                    Connect to an exchange of your choice. For example, go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the PLANET 2.0  token address into Uniswap, select PLANET 2.0, and confirm. When Metamask prompts you for a wallet signature, sign.
                                 </p>
                             </div>
 
@@ -269,13 +269,13 @@ export default function Home() {
 
                                 <div data-aos="fade-right" className='border-b-2'>
                                     <p>
-                                        🐵 Contract Audit: We conduct a thorough audit of the $PLANET-A smart contract, ensuring its integrity and providing a safe environment for our community members.
+                                        🐵 Contract Audit: We conduct a thorough audit of the PLANET 2.0 smart contract, ensuring its integrity and providing a safe environment for our community members.
                                     </p>
                                 </div>
 
                                 <div data-aos="fade-right" className='border-b-2'>
                                     <p>
-                                        🐵 Liquidity Lock and Launch: We implement a liquidity lock mechanism to protect the liquidity pool and successfully launch $PLANET-A, enabling secure transactions.
+                                        🐵 Liquidity Lock and Launch: We implement a liquidity lock mechanism to protect the liquidity pool and successfully launch PLANET 2.0, enabling secure transactions.
                                     </p>
                                 </div>
 
@@ -287,13 +287,13 @@ export default function Home() {
 
                                 <div data-aos="fade-right" className='border-b-2'>
                                     <p>
-                                        🐵 CG and CMC Listing: We aim to list $PLANET-A on prominent cryptocurrency data platforms such as CoinGecko (CG) and CoinMarketCap (CMC) to enhance credibility and accessibility.
+                                        🐵 CG and CMC Listing: We aim to list PLANET 2.0 on prominent cryptocurrency data platforms such as CoinGecko (CG) and CoinMarketCap (CMC) to enhance credibility and accessibility.
                                     </p>
                                 </div>
 
                                 <div data-aos="fade-right" className='border-b-2'>
                                     <p>
-                                        🐵 Whitepaper Release: We release a comprehensive whitepaper that outlines the vision, technology, and roadmap of $PLANET-A, promoting transparency and understanding.
+                                        🐵 Whitepaper Release: We release a comprehensive whitepaper that outlines the vision, technology, and roadmap of PLANET 2.0, promoting transparency and understanding.
                                     </p>
                                 </div>
 
@@ -325,7 +325,7 @@ export default function Home() {
                                     <div>
                                         <div className='w-64 -translate-y-12'>
                                             <p>
-                                                🐵 Contract Audit: We conduct a thorough audit of the $PLANET-A smart contract, ensuring its integrity and providing a safe environment for our community members.
+                                                🐵 Contract Audit: We conduct a thorough audit of the PLANET 2.0 smart contract, ensuring its integrity and providing a safe environment for our community members.
                                             </p>
                                         </div>
                                     </div>
@@ -347,7 +347,7 @@ export default function Home() {
                                     <div>
                                         <div className='w-64 -translate-y-12'>
                                             <p>
-                                                🐵 Contract Audit: We conduct a thorough audit of the $PLANET-A smart contract, ensuring its integrity and providing a safe environment for our community members.
+                                                🐵 Contract Audit: We conduct a thorough audit of the PLANET 2.0 smart contract, ensuring its integrity and providing a safe environment for our community members.
                                             </p>
                                         </div>
                                     </div>
@@ -423,7 +423,7 @@ export default function Home() {
 
                                     <div className='w-64'>
                                         <p>
-                                            🐵 Liquidity Lock and Launch: We implement a liquidity lock mechanism to protect the liquidity pool and successfully launch $PLANET-A, enabling secure transactions
+                                            🐵 Liquidity Lock and Launch: We implement a liquidity lock mechanism to protect the liquidity pool and successfully launch PLANET 2.0, enabling secure transactions
                                         </p>
                                     </div>
 
@@ -444,7 +444,7 @@ export default function Home() {
 
                                     <div className='w-64'>
                                         <p>
-                                            🐵 CG and CMC Listing: We aim to list $PLANET-A on prominent cryptocurrency data platforms such as CoinGecko (CG) and CoinMarketCap (CMC) to enhance credibility and accessibility.
+                                            🐵 CG and CMC Listing: We aim to list PLANET 2.0 on prominent cryptocurrency data platforms such as CoinGecko (CG) and CoinMarketCap (CMC) to enhance credibility and accessibility.
                                         </p>
                                     </div>
 
@@ -482,7 +482,7 @@ export default function Home() {
                     <img src={bg_join} alt='join' className='mix-blend-color-dodge absolute lg:block hidden'></img>
                     <div className='lg:p-20 pt-8 relative z-20 lg:mb-48 lg:translate-y-16'>
                         <div data-aos='slide-right' className='space-y-6'>
-                            <p className='lg:text-lg font-oswald uppercase mb-6'>Planet of the Apes</p>
+                            <p className='lg:text-lg font-oswald uppercase mb-6'>PLANET 2.0</p>
 
                             <h2 className='md:text-5xl text-3xl font-extrabold text-white-100'>
                                 Join us for an<br></br>
