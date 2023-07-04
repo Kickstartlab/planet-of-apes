@@ -30,6 +30,12 @@ export default function Home() {
 
             {/* top section */}
 
+            <div className='py-4 text-center bg-green-50'>
+                <p className='lg:text-base text-sm'>
+                    CA: 0xf26115ce00d80843b5a703c7d26e388847eb7f56
+                </p>
+            </div>
+
             <div className="lg:px-20 px-5 bg-top">
                 <div className='container mx-auto relative z-20'>
 
@@ -48,9 +54,11 @@ export default function Home() {
                             </p>
 
                             <div className='flex items-center gap-x-6'>
-                                <button data-aos='slide-right' className='bg-green-100 lg:px-12 px-6 py-3 uppercase font-semibold rounded-full border-2 border-green-100 hover-bg-transparent'>
-                                    chart
-                                </button>
+                                <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x3Ef6626e62620Cc391Ce419A84841DA6112B0d55'>
+                                    <button data-aos='slide-right' className='bg-green-100 lg:px-12 px-6 py-3 uppercase font-semibold rounded-full border-2 border-green-100 hover-bg-transparent'>
+                                        chart
+                                    </button>
+                                </a>
 
                                 {/* <button data-aos='slide-left' className='hover:bg-green-100 border-2 border-green-100 lg:px-12 px-6 py-3 uppercase font-semibold rounded-full'>
                                     audit
