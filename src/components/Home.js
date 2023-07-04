@@ -11,7 +11,6 @@ import leaves from '../assets/leaves.png';
 import buy_1 from '../assets/buy_1.png';
 import buy_2 from '../assets/buy_2.png';
 import buy_3 from '../assets/buy_3.png';
-import buy_4 from '../assets/buy_4.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Particle from './Particle';
@@ -157,7 +156,7 @@ export default function Home() {
                                 </h4>
 
                                 <h4 className='md:text-2xl text-lg font-extrabold text-white-100'>
-                                    2%
+                                    3%
                                 </h4>
                             </div>
 
@@ -222,7 +221,7 @@ export default function Home() {
                             </div>
 
                             <div data-aos='slide-up' className='flex flex-col items-center text-center gap-y-4'>
-                                <img src={buy_4} alt='buy'></img>
+                                <h3 className='lg:text-5xl text-4xl font-extrabold'>$PLANET 2.0</h3>
                                 <h5 className='text-2xl font-mulish font-extrabold'>Switch Eth for Ape</h5>
                                 <p className='text-white-100 opacity-50 lg:leading-loose'>
                                     Connect to an exchange of your choice. For example, go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the PLANET 2.0  token address into Uniswap, select PLANET 2.0, and confirm. When Metamask prompts you for a wallet signature, sign.
